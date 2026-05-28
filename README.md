@@ -29,12 +29,6 @@ cp po.manifest.ru.js.gz /usr/share/cockpit/machines/
 systemctl restart cockpit.socket
 ```
 
-Then reload browser cache with:
-
-```text
-Ctrl+Shift+R
-```
-
 ## Build process
 
 The files were generated from upstream `ru.po` using the Cockpit Machines build system.
